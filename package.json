@@ -1,0 +1,31 @@
+{
+  "name": "multi-tenant-node-api",
+  "version": "1.0.0",
+  "description": "A scalable Node.js backend that supports **multi-tenant architecture**, where each client has a separate MySQL database. Includes Redis caching, JWT authentication, and dynamic DB routing based on client identity.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmayank344/multi-tenant-node-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmayank344/multi-tenant-node-api/issues"
+  },
+  "homepage": "https://github.com/rmayank344/multi-tenant-node-api#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10",
+    "redis": "^5.5.6",
+    "sequelize": "^6.37.7"
+  }
+}
